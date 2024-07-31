@@ -1,0 +1,817 @@
+{
+    "room": [
+      {
+        "id": "101",
+        "roomTypeId": "4",
+        "bookingIds": ["1","26"]
+      },
+      {
+        "id": "102",
+        "roomTypeId": "4",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "103",
+        "roomTypeId": "4",
+        
+        "bookingIds": ["2"]
+      },
+      {
+        "id": "104",
+        "roomTypeId": "4",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "105",
+        "roomTypeId": "4",
+        "bookingIds": ["3"]
+      },
+      {
+        "id": "106",
+        "roomTypeId": "5",
+        "bookingIds": []
+      },
+      {
+        "id": "107",
+        "roomTypeId": "4",
+        
+        "bookingIds": ["4"]
+      },
+      {
+        "id": "108",
+        "roomTypeId": "4",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "109",
+        "roomTypeId": "4",
+        
+        "bookingIds": ["5"]
+      },
+      {
+        "id": "201",
+        "roomTypeId": "5",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "202",
+        "roomTypeId": "5",
+        
+        "bookingIds": ["6"]
+      },
+      {
+        "id": "203",
+        "roomTypeId": "5",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "204",
+        "roomTypeId": "5",
+        
+        "bookingIds": ["7"]
+      },
+      {
+        "id": "205",
+        "roomTypeId": "5",
+        "bookingIds": []
+      },
+      {
+        "id": "206",
+        "roomTypeId": "5",
+        
+        "bookingIds": ["8"]
+      },
+      {
+        "id": "207",
+        "roomTypeId": "5",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "208",
+        "roomTypeId": "5",
+        
+        "bookingIds": ["9"]
+      },
+      {
+        "id": "209",
+        "roomTypeId": "5",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "301",
+        "roomTypeId": "1",
+        
+        "bookingIds": ["10"]
+      },
+      {
+        "id": "302",
+        "roomTypeId": "1",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "303",
+        "roomTypeId": "1",
+        
+        "bookingIds": ["11"]
+      },
+      {
+        "id": "304",
+        "roomTypeId": "1",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "305",
+        "roomTypeId": "2",
+        
+        "bookingIds": ["12"]
+      },
+      {
+        "id": "306",
+        "roomTypeId": "2",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "307",
+        "roomTypeId": "2",
+        
+        "bookingIds": ["13"]
+      },
+      {
+        "id": "308",
+        "roomTypeId": "2",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "309",
+        "roomTypeId": "2",
+        
+        "bookingIds": ["14"]
+      },
+      {
+        "id": "401",
+        "roomTypeId": "1",
+        
+        "bookingIds": ["15"]
+      },
+      {
+        "id": "402",
+        "roomTypeId": "1",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "403",
+        "roomTypeId": "1",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "404",
+        "roomTypeId": "1",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "405",
+        "roomTypeId": "2",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "406",
+        "roomTypeId": "2",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "407",
+        "roomTypeId": "2",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "408",
+        "roomTypeId": "2",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "409",
+        "roomTypeId": "2",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "501",
+        "roomTypeId": "1",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "502",
+        "roomTypeId": "1",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "503",
+        "roomTypeId": "1",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "504",
+        "roomTypeId": "1",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "505",
+        "roomTypeId": "2",
+        
+        "bookingIds":[]
+      },
+      {
+        "id": "506",
+        "roomTypeId": "2",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "507",
+        "roomTypeId": "2",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "508",
+        "roomTypeId": "2",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "509",
+        "roomTypeId": "2",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "601",
+        "roomTypeId": "1",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "602",
+        "roomTypeId": "1",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "603",
+        "roomTypeId": "1",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "604",
+        "roomTypeId": "1",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "605",
+        "roomTypeId": "2",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "606",
+        "roomTypeId": "2",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "607",
+        "roomTypeId": "2",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "608",
+        "roomTypeId": "2",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "609",
+        "roomTypeId": "2",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "701",
+        "roomTypeId": "3",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "702",
+        "roomTypeId": "3",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "703",
+        "roomTypeId": "3",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "704",
+        "roomTypeId": "3",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "705",
+        "roomTypeId": "3",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "706",
+        "roomTypeId": "3",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "707",
+        "roomTypeId": "3",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "708",
+        "roomTypeId": "3",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "709",
+        "roomTypeId": "3",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "801",
+        "roomTypeId": "3",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "802",
+        "roomTypeId": "3",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "803",
+        "roomTypeId": "3",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "804",
+        "roomTypeId": "3",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "805",
+        "roomTypeId": "3",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "806",
+        "roomTypeId": "3",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "807",
+        "roomTypeId": "3",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "808",
+        "roomTypeId": "3",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "809",
+        "roomTypeId": "3",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "901",
+        "roomTypeId": "5",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "902",
+        "roomTypeId": "5",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "903",
+        "roomTypeId": "5",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "904",
+        "roomTypeId": "5",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "905",
+        "roomTypeId": "5",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "906",
+        "roomTypeId": "5",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "907",
+        "roomTypeId": "5",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "908",
+        "roomTypeId": "5",
+        
+        "bookingIds": []
+      },
+      {
+        "id": "909",
+        "roomTypeId": "5",
+        
+        "bookingIds": []
+      }
+    ],
+  
+    "roomType" : [
+    {
+      "id": "1",
+      "name": "Deluxe Room",
+      "imageSrc": "./assets/deluxe-room.jpg",
+      "capacityAdult": "2",
+      "capacityChildren": "1",
+      "description": "Phòng Deluxe mang đến sự kết hợp hoàn hảo giữa tiện nghi hiện đại và thiết kế tinh tế. Với diện tích rộng rãi, phòng được trang bị giường đôi êm ái, TV màn hình phẳng, Wi-Fi miễn phí, điều hòa không khí, minibar và bàn làm việc. Phòng tắm riêng với bồn tắm và đồ vệ sinh cao cấp, đảm bảo mang lại cho quý khách trải nghiệm nghỉ dưỡng tuyệt vời.",
+      "price": "800.000"
+    },
+    {
+      "id": "2",
+      "name": "Deluxe Twin",
+      "imageSrc": "./assets/deluxe-twin-room.jpeg",
+      "capacityAdult": "4",
+      "capacityChildren": "2",
+      "description": "Phòng Deluxe Twin tại khách sạn chúng tôi là sự lựa chọn hoàn hảo cho các du khách muốn chia sẻ không gian thoải mái cùng bạn bè hoặc gia đình. Với hai giường đơn êm ái, phòng được trang bị đầy đủ tiện nghi như TV màn hình phẳng, Wi-Fi miễn phí, minibar và khu vực làm việc. Phòng tắm riêng có bồn tắm và các đồ vệ sinh cao cấp, mang đến sự tiện nghi và thoải mái trong suốt kỳ nghỉ của bạn.",
+      "price": "1.000.000"
+    },
+    {
+      "id": "3",
+      "name": "Prenium Room",
+      "imageSrc": "./assets/prenium-room.jpeg",
+      "capacityAdult": "2",
+      "capacityChildren": "1",
+      "description": "Tận hưởng không gian sang trọng và đẳng cấp tại phòng Premium của chúng tôi. Với nội thất cao cấp và trang thiết bị hiện đại, phòng Premium mang đến sự thoải mái tối đa với giường đôi êm ái, TV màn hình phẳng, khu vực làm việc tiện nghi và minibar. Phòng tắm riêng được trang bị bồn tắm và đồ vệ sinh đẳng cấp, hứa hẹn một trải nghiệm nghỉ dưỡng đẳng cấp.",
+      "price": "2.000.000"
+    },
+    {
+      "id": "4",
+      "name": "Family Suite",
+      "imageSrc": "./assets/family-suite.jpeg",
+      "capacityAdult": "8",
+      "capacityChildren": "4",
+      "description": "Family Suite tại khách sạn là sự lựa chọn hoàn hảo cho các gia đình muốn tận hưởng không gian nghỉ ngơi riêng biệt và tiện nghi. Với không gian rộng rãi, phòng được trang bị các giường ngủ phù hợp, khu vực sinh hoạt chung và các thiết bị tiện ích như TV màn hình phẳng, Wi-Fi miễn phí và minibar. Phòng tắm riêng có bồn tắm và các tiện nghi cao cấp, đảm bảo sự thoải mái và tiện nghi cho mọi thành viên trong gia đình.",
+      "price": "4.000.000"
+    },
+    {
+      "id": "5",
+      "name": "Royal Suite",
+      "imageSrc": "./assets/royal-suite.jpeg",
+      "capacityAdult": "2",
+      "capacityChildren": "1",
+      "description": "Royal Suite là biểu tượng của sự xa hoa và sang trọng tại khách sạn chúng tôi. Với không gian rộng rãi và thiết kế đẳng cấp, phòng mang đến trải nghiệm nghỉ dưỡng hoàng gia với giường đôi tiện nghi, phòng khách riêng biệt, TV màn hình phẳng, minibar và khu vực làm việc sang trọng. Phòng tắm riêng rộng lớn có bồn tắm và các tiện nghi cao cấp, cam kết đáp ứng mọi mong đợi của khách hàng khó tính nhất.",
+      "price": "5.000.000"
+    }
+  ] ,
+  "booking": [
+    {
+      "id": "1",
+      "customerName": "Nguyễn Văn A",
+      "checkInDate": "2024-06-21",
+      "checkOutDate": "2024-06-30",
+      "email": "",
+      "phone": "0364438082",
+      "roomTypeId": "4",
+      "isDeal": true
+    },
+    {
+      "id": "2",
+      "customerName": "Trần Thị B",
+      "checkInDate": "2024-07-01",
+      "checkOutDate": "2024-07-03",
+      "email": "tranb@example.com",
+      "phone": "0987654321",
+      "roomTypeId": "4",
+      "isDeal": true
+    },
+    {
+      "id": "3",
+      "customerName": "Lê Văn C",
+      "checkInDate": "2024-07-05",
+      "checkOutDate": "2024-07-07",
+      "email": "",
+      "phone": "0123456789",
+      "roomTypeId": "4",
+      "isDeal": true
+    },
+    {
+      "id": "4",
+      "customerName": "Phạm Thị D",
+      "checkInDate": "2024-07-10",
+      "checkOutDate": "2024-07-12",
+      "email": "phamd@example.com",
+      "phone": "0789123456",
+      "roomTypeId": "4",
+      "isDeal": true
+    },
+    {
+      "id": "5",
+      "customerName": "Ngô Văn E",
+      "checkInDate": "2024-07-15",
+      "checkOutDate": "2024-07-16",
+      "email": "",
+      "phone": "0398765432",
+      "roomTypeId": "4",
+      "isDeal": true
+    },
+    {
+      "id": "6",
+      "customerName": "Nguyễn Văn F",
+      "checkInDate": "2024-07-17",
+      "checkOutDate": "2024-07-20",
+      "email": "nguyenf@example.com",
+      "phone": "0334438082",
+      "roomTypeId": "5",
+      "isDeal": true
+    },
+    {
+      "id": "7",
+      "customerName": "Trần Thị G",
+      "checkInDate": "2024-07-21",
+      "checkOutDate": "2024-07-23",
+      "email": "trang@example.com",
+      "phone": "0387654321",
+      "roomTypeId": "5",
+      "isDeal": true
+    },
+    {
+      "id": "8",
+      "customerName": "Lê Văn H",
+      "checkInDate": "2024-07-24",
+      "checkOutDate": "2024-07-26",
+      "email": "",
+      "phone": "0423456789",
+      "roomTypeId": "5",
+      "isDeal": true
+    },
+    {
+      "id": "9",
+      "customerName": "Phạm Thị I",
+      "checkInDate": "2024-07-27",
+      "checkOutDate": "2024-07-30",
+      "email": "phami@example.com",
+      "phone": "0489123456",
+      "roomTypeId": "5",
+      "isDeal": true
+    },
+    {
+      "id": "10",
+      "customerName": "Ngô Văn J",
+      "checkInDate": "2024-08-01",
+      "checkOutDate": "2024-08-03",
+      "email": "",
+      "phone": "0398765432",
+      "roomTypeId": "1",
+      "isDeal": true
+    },
+    {
+      "id": "11",
+      "customerName": "Nguyễn Văn K",
+      "checkInDate": "2024-08-05",
+      "checkOutDate": "2024-08-07",
+      "email": "nguyenk@example.com",
+      "phone": "0324438082",
+      "roomTypeId": "1",
+      "isDeal": true
+    },
+    {
+      "id": "12",
+      "customerName": "Trần Thị L",
+      "checkInDate": "2024-08-10",
+      "checkOutDate": "2024-08-12",
+      "email": "tranl@example.com",
+      "phone": "0287654321",
+      "roomTypeId": "2",
+      "isDeal": true
+    },
+    {
+      "id": "13",
+      "customerName": "Lê Văn M",
+      "checkInDate": "2024-08-15",
+      "checkOutDate": "2024-08-17",
+      "email": "",
+      "phone": "0223456789",
+      "roomTypeId": "2",
+      "isDeal": true
+    },
+    {
+      "id": "14",
+      "customerName": "Phạm Thị N",
+      "checkInDate": "2024-08-20",
+      "checkOutDate": "2024-08-23",
+      "email": "phamn@example.com",
+      "phone": "0289123456",
+      "roomTypeId": "2",
+      "isDeal": true
+    },
+    {
+      "id": "15",
+      "customerName": "Ngô Văn O",
+      "checkInDate": "2024-08-25",
+      "checkOutDate": "2024-08-27",
+      "email": "ngoo@example.com",
+      "phone": "0298765432",
+      "roomTypeId": "2",
+      "isDeal": true
+    },
+    {
+      "id": "16",
+      "customerName": "Nguyễn Văn P",
+      "checkInDate": "2024-08-30",
+      "checkOutDate": "2024-09-01",
+      "email": "",
+      "phone": "0364438082",
+      "roomTypeId": "3",
+      "isDeal": false
+    },
+    {
+      "id": "17",
+      "customerName": "Trần Thị Q",
+      "checkInDate": "2024-09-05",
+      "checkOutDate": "2024-09-07",
+      "email": "tranq@example.com",
+      "phone": "0987654321",
+      "roomTypeId": "3",
+      "isDeal": false
+    },
+    {
+      "id": "18",
+      "customerName": "Lê Văn R",
+      "checkInDate": "2024-09-10",
+      "checkOutDate": "2024-09-12",
+      "email": "",
+      "phone": "0123456789",
+      "roomTypeId": "3",
+      "isDeal": false
+    },
+    {
+      "id": "19",
+      "customerName": "Phạm Thị S",
+      "checkInDate": "2024-09-15",
+      "checkOutDate": "2024-09-17",
+      "email": "phams@example.com",
+      "phone": "0789123456",
+      "roomTypeId": "3",
+      "isDeal": false
+    },
+    {
+      "id": "20",
+      "customerName": "Ngô Văn T",
+      "checkInDate": "2024-09-20",
+      "checkOutDate": "2024-09-22",
+      "email": "",
+      "phone": "0398765432",
+      "roomTypeId": "3",
+      "isDeal": false
+    },
+    {
+      "id": "21",
+      "customerName": "Nguyễn Thị U",
+      "checkInDate": "2024-09-25",
+      "checkOutDate": "2024-09-27",
+      "email": "nguyenu@example.com",
+      "phone": "0334438082",
+      "roomTypeId": "1",
+      "isDeal": false
+    },
+    {
+      "id": "22",
+      "customerName": "Trần Văn V",
+      "checkInDate": "2024-10-01",
+      "checkOutDate": "2024-10-03",
+      "email": "",
+      "phone": "0387654321",
+      "roomTypeId": "1",
+      "isDeal": false
+    },
+    {
+      "id": "23",
+      "customerName": "Lê Thị X",
+      "checkInDate": "2024-10-05",
+      "checkOutDate": "2024-10-07",
+      "email": "lext@example.com",
+      "phone": "0423456789",
+      "roomTypeId": "2",
+      "isDeal": false
+    },
+    {
+      "id": "24",
+      "customerName": "Phạm Văn Y",
+      "checkInDate": "2024-10-10",
+      "checkOutDate": "2024-10-12",
+      "email": "",
+      "phone": "0489123456",
+      "roomTypeId": "2",
+      "isDeal": false
+    },
+    {
+      "id": "25",
+      "customerName": "Nguyễn Thị Z",
+      "checkInDate": "2024-10-15",
+      "checkOutDate": "2024-10-17",
+      "email": "nguyenz@example.com",
+      "phone": "0398765432",
+      "roomTypeId": "2",
+      "isDeal": false
+    },
+    {
+      "id": "26",
+      "customerName": "Nguyễn Thị K",
+      "checkInDate": "2024-10-15",
+      "checkOutDate": "2024-10-17",
+      "email": "nguyenz@example.com",
+      "phone": "0398765432",
+      "roomTypeId": "4",
+      "isDeal": true
+    },
+    {
+      "id": "27",
+      "customerName": "Nguyễn Văn Th",
+      "checkInDate": "2024-07-01",
+      "checkOutDate": "2024-07-07",
+      "email": "nguyenz@example.com",
+      "phone": "0398765432",
+      "roomTypeId": "4",
+      "isDeal": false
+    },
+    {
+      "id": "28",
+      "customerName": "Nguyễn Minh Đ",
+      "checkInDate": "2024-07-09",
+      "checkOutDate": "2024-07-10",
+      "email": "nguyenđ@example.com",
+      "phone": "0398765432",
+      "roomTypeId": "4",
+      "isDeal": false
+    }
+  ]
+}
+  

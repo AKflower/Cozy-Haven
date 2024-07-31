@@ -1,0 +1,227 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body {
+    font-family: 'Montserrat' !important;
+    display: flex;
+}
+
+
+.header{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: right;
+    background: #599eff;
+    color: white;
+    /* padding: 1em; */
+    padding: .2em .5em;
+}
+
+.sidebar{
+    width: max-content;
+    padding: 0 1em;
+    height: 100vh;
+    background-color: #599eff;
+    position: fixed;
+    top:0;
+    left: 0;
+}
+
+.sidebar .brand{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: 1em 0 2em 0;
+}
+.sidebar a {
+    text-decoration: none;
+}
+.sidebar .tab{
+    cursor: pointer;
+    color: white;
+    display: flex;
+    padding: 1em 0;
+   
+}
+.sidebar .tab:hover{
+    background-color: rgb(131 142 242);
+    border-radius: 10px;
+}
+.sidebar .tab.active{
+    cursor: pointer;
+    color: white;
+    display: flex;
+    padding: 1em 0;
+    background-color: rgb(131 142 242);
+    border-radius: 10px;
+}
+
+.sidebar .tab .tab-icon {
+    padding: 0 1em 0 2em;
+}
+
+#page{
+   margin-left: 20em;
+   flex:1;
+}
+#page__title {
+    margin: 1em 1em 1em 0;
+}
+.rooms{
+   width: 98%;
+   padding-bottom: 2em;
+}
+
+.rooms__header {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 2px 3px silver;
+    margin: 0 0 1em 0;
+    padding: 1em;
+    border-radius: 10px;
+}
+.rooms__header input {
+    border-radius: 10px;
+    padding: .2em .5em;
+    border: 1px solid silver;
+    background-color: #fbfafa;
+}
+#room-list{
+    max-height: 600px;
+    overflow: auto;
+    margin-top: .5em;
+    background: #bfd9f5;
+    border-radius: 10px;
+    padding-bottom: 1em;
+
+}
+.room__item{
+    background: #f1f1f1;
+    padding: 1em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.room__item:hover{
+    box-shadow: 1px 1px 8px silver;
+}
+.room__item .status{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    min-height: 5em;
+}
+.room__item .status-empty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: green;
+    min-height: 5em;
+}
+.room__item .room-infor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 5em;
+}
+.room-infor img{
+    border-radius: 50%;
+    width: 4em;
+    height: 4em;
+}
+
+.room__detail{
+    background: #e9fbff;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+#booking-table {
+    width: 100%;
+    margin-top: 1em;
+}
+#booking-table thead {
+    background-color: #599eff;
+    
+}
+#booking-table th {
+    padding: 1em;
+    color: white;
+}
+#booking-table td {
+    padding: 1em;
+    background-color: rgb(245 244 244);
+    border-bottom: 1px solid silver;
+}
+
+#selectBooked{
+    padding: .5em;
+    margin: 0 0 1em 0;
+    border: none;
+    box-shadow: 1px 2px 10px silver;
+    border-radius: 10px;
+}
+.modal-body input{
+    padding: .2em .5em;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+#roomTypeSelectModal{
+    padding: .2em .5em;
+    border-radius: 5px;
+    border: 1px solid silver;
+}
+.notification{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+.roomType-container{
+    padding: 1em;
+   
+    background-color: #e9fbff;
+    border-radius: 5px;
+}
+
+.roomType-item-content p {
+    font-size: 12px;
+    min-height: 18em;
+    display: flex;
+    align-items: center;
+}
+.roomType-item-footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+
+    align-items: center;
+    background-color: #e9fbff;
+}
+.roomType-item-btn{
+    text-align: right;
+}
+.roomType-item-content__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+}
+#room-list-modal{
+    max-height: 20em;
+    overflow: auto;
+}
+.room-select-item{
+    padding: 1em;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    margin: .5em 0;
+}

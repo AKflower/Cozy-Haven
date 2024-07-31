@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/admin.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Cozy Haven Manager</title>
+</head>
+<body>
+    <div class="position-fixed top-0 end-0 p-3" style="z-index: 11">
+        <div id="myToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="me-auto">Thành công</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Bạn đã đổi thông tin phòng thành công.
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <a href="index.html"><div class="brand">Cozy Haven Manager</div></a>    
+        <a href="index.html"><div class="tab active">
+            <span class="tab-icon"><svg width="25px" height="25px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill="var(--ci-primary-color, #fcfcfc)" d="M440,424V88H352V13.005L88,58.522V424H16v32h86.9L352,490.358V120h56V456h88V424ZM320,453.642,120,426.056V85.478L320,51Z" class="ci-primary"></path> <rect width="32" height="64" x="256" y="232" fill="var(--ci-primary-color, #fcfcfc)" class="ci-primary"></rect> </g></svg></span>
+            Quản lý phòng
+        </div></a>
+        <a href="roomType.html"><div class="tab">
+            <span class="tab-icon"><svg width="25px" height="25px" viewBox="0 0 33 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>tag-2</title> <desc>Created with Sketch Beta.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <g id="Icon-Set" sketch:type="MSLayerGroup" transform="translate(-360.000000, -774.000000)" fill="#ffffff"> <path d="M390.097,789.321 C390.097,789.849 389.611,790.623 389.095,791.139 L378.823,801.378 L365.634,788.197 L375.89,777.974 C376.36,777.504 377.111,776.903 377.641,776.903 L389.139,776.903 C389.668,776.903 390.097,777.331 390.097,777.858 L390.097,789.321 L390.097,789.321 Z M375.89,804.304 C375.079,805.111 373.765,805.111 372.955,804.304 L362.684,794.063 C361.873,793.256 361.873,791.946 362.684,791.139 L364.166,789.66 L377.341,802.856 L375.89,804.304 L375.89,804.304 Z M390.097,774.993 L376.683,774.993 C375.624,774.993 375.431,775.455 374.422,776.511 L361.217,789.676 C359.596,791.291 359.596,793.911 361.217,795.526 L371.487,805.767 C373.108,807.382 375.735,807.382 377.356,805.767 L390.563,792.602 C391.412,791.754 392.014,791.332 392.014,790.276 L392.014,776.903 C392.014,775.849 391.155,774.993 390.097,774.993 L390.097,774.993 Z M383.959,786.019 C383.148,786.826 381.835,786.826 381.024,786.019 C380.214,785.211 380.214,783.901 381.024,783.093 C381.835,782.285 383.148,782.285 383.959,783.093 C384.77,783.901 384.77,785.211 383.959,786.019 L383.959,786.019 Z M379.558,781.63 C377.937,783.246 377.937,785.865 379.558,787.481 C381.178,789.097 383.806,789.097 385.427,787.481 C387.047,785.865 387.047,783.246 385.427,781.63 C383.806,780.015 381.178,780.015 379.558,781.63 L379.558,781.63 Z" id="tag-2" sketch:type="MSShapeGroup"> </path> </g> </g> </g></svg></span>
+            Quản lý loại phòng</div>
+        </a>
+        <a href="booking.html"><div class="tab">
+            <span class="tab-icon"><svg width="25px" height="25px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <rect x="5" y="4" width="14" height="17" rx="2" stroke="#ffffff"></rect> <path d="M9 9H15" stroke="#ffffff" stroke-linecap="round"></path> <path d="M9 13H15" stroke="#ffffff" stroke-linecap="round"></path> <path d="M9 17H13" stroke="#ffffff" stroke-linecap="round"></path> </g></svg></span>
+            Quản lý đơn đặt phòng
+        </div>
+        </a>
+    </div>
+    <div id="page">
+        <div class="modal fade" id="editRoom" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Tạo phòng mới</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex">
+                        <div class="pb-2">
+                            <label for="" class="">Số phòng</label>
+                            <input type="text" class="" id="edit-room">
+                        </div>
+                        
+                        <div>
+                            <label for="roomTypeSelectModal" >Chọn loại phòng</label>
+                            <select id="roomTypeSelectModal">
+                               
+                            </select>
+                        
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="close-btn-edit">Close</button>
+                  <button type="button" class="btn btn-primary" id="change-btn">Change</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="deleteRoom" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Xóa phòng</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex">
+                       Bạn muốn xóa phòng này?
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="close-btn-delete-room">Close</button>
+                  <button type="button" class="btn btn-primary" id="delete-btn">Yes</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="deleteInfor" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Xóa đơn đặt phòng</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex">
+                        Bạn muốn xóa đơn đặt phòng này?
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="close-btn-delete-infor">Close</button>
+                  <button type="button" class="btn btn-primary" id="delete-infor-btn">Yes</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        <h2 id="page__title">Quản lý phòng</h2>
+        
+    </div>  
+    <script src="../js/admin/roomDetail.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        // Lấy tham chiếu đến toast
+        var myToast = document.querySelector('.toast');
+      
+        // Tạo một đối tượng Toast từ Bootstrap
+        var toast = new bootstrap.Toast(myToast);
+      
+        // Kích hoạt hiển thị toast
+        myToast.addEventListener('show.bs.toast', function () {
+          console.log('Toast is shown');
+        });
+      
+        // Kích hoạt ẩn toast
+        myToast.addEventListener('hidden.bs.toast', function () {
+          console.log('Toast is hidden');
+        });
+      
+        // Hiển thị toast
+        function showToast() {
+            console.log('Jgho');
+          toast.show();
+        }
+      
+        // Đóng toast
+        function hideToast() {
+          toast.hide();
+        }
+        
+      </script>
+</body>
+</html>
