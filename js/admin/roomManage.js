@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
     })
     //Lấy dữ liệu và render giao diện
     function fetchDataAndDisplay() {
-        fetch('../../data/data.json')
+        fetch('../data/data.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok ' + response.statusText);
