@@ -3,7 +3,7 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     function fetchDataAndDisplay() {
-        fetch('/data/data.json')
+        fetch('data/data.json')
         .then(response => {
         // Kiểm tra nếu phản hồi thành công
         if (!response.ok) {

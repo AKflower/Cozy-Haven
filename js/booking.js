@@ -2,7 +2,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const roomTypeId = urlParams.get('room');
 document.addEventListener('DOMContentLoaded', function() {
     
-    fetch('/data/data.json')
+    fetch('data/data.json')
     .then(response => {
         // Kiểm tra nếu phản hồi thành công
         if (!response.ok) {
